@@ -1,0 +1,84 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.8  33500  4024 ?        Ss   Mar11   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Mar11   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Mar11   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    Mar11   0:00 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Mar11   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Mar11   0:00 [rcuos/0]
+root        10  0.0  0.0      0     0 ?        S    Mar11   0:00 [rcuob/0]
+root        11  0.0  0.0      0     0 ?        S    Mar11   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    Mar11   0:00 [watchdog/0]
+root        13  0.0  0.0      0     0 ?        S<   Mar11   0:00 [khelper]
+root        14  0.0  0.0      0     0 ?        S    Mar11   0:00 [kdevtmpfs]
+root        15  0.0  0.0      0     0 ?        S<   Mar11   0:00 [netns]
+root        16  0.0  0.0      0     0 ?        S<   Mar11   0:00 [perf]
+root        17  0.0  0.0      0     0 ?        S    Mar11   0:00 [khungtaskd]
+root        18  0.0  0.0      0     0 ?        S<   Mar11   0:00 [writeback]
+root        19  0.0  0.0      0     0 ?        SN   Mar11   0:00 [ksmd]
+root        20  0.0  0.0      0     0 ?        S<   Mar11   0:00 [crypto]
+root        21  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kintegrityd]
+root        22  0.0  0.0      0     0 ?        S<   Mar11   0:00 [bioset]
+root        23  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kblockd]
+root        24  0.0  0.0      0     0 ?        S<   Mar11   0:00 [ata_sff]
+root        25  0.0  0.0      0     0 ?        S<   Mar11   0:00 [md]
+root        26  0.0  0.0      0     0 ?        S<   Mar11   0:00 [devfreq_wq]
+root        30  0.0  0.0      0     0 ?        S    Mar11   0:00 [kswapd0]
+root        31  0.0  0.0      0     0 ?        S    Mar11   0:00 [fsnotify_mark]
+root        32  0.0  0.0      0     0 ?        S    Mar11   0:00 [ecryptfs-kthrea]
+root        44  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kthrotld]
+root        45  0.0  0.0      0     0 ?        S<   Mar11   0:00 [acpi_thermal_pm]
+root        46  0.0  0.0      0     0 ?        S    Mar11   0:00 [scsi_eh_0]
+root        47  0.0  0.0      0     0 ?        S<   Mar11   0:00 [scsi_tmf_0]
+root        48  0.0  0.0      0     0 ?        S    Mar11   0:00 [scsi_eh_1]
+root        49  0.0  0.0      0     0 ?        S<   Mar11   0:00 [scsi_tmf_1]
+root        54  0.0  0.0      0     0 ?        S<   Mar11   0:00 [ipv6_addrconf]
+root        74  0.0  0.0      0     0 ?        S<   Mar11   0:00 [deferwq]
+root        75  0.0  0.0      0     0 ?        S<   Mar11   0:00 [charger_manager]
+root       124  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kpsmoused]
+root       125  0.0  0.0      0     0 ?        S    Mar11   0:00 [scsi_eh_2]
+root       126  0.0  0.0      0     0 ?        S    Mar11   0:15 [kworker/0:2]
+root       127  0.0  0.0      0     0 ?        S<   Mar11   0:00 [scsi_tmf_2]
+root       129  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kworker/0:1H]
+root       137  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kdmflush]
+root       138  0.0  0.0      0     0 ?        S<   Mar11   0:00 [bioset]
+root       140  0.0  0.0      0     0 ?        S<   Mar11   0:00 [kdmflush]
+root       143  0.0  0.0      0     0 ?        S<   Mar11   0:00 [bioset]
+root       156  0.0  0.0      0     0 ?        S    Mar11   0:00 [jbd2/dm-0-8]
+root       157  0.0  0.0      0     0 ?        S<   Mar11   0:00 [ext4-rsv-conver]
+root       293  0.0  0.0  19480   184 ?        S    Mar11   0:00 upstart-udev-bridge --daemon
+root       297  0.0  0.7  51516  3640 ?        Ss   Mar11   0:00 /lib/systemd/systemd-udevd --daemon
+root       341  0.0  0.0      0     0 ?        S<   Mar11   0:00 [iprt]
+root       358  0.0  0.0      0     0 ?        S<   Mar11   0:00 [ext4-rsv-conver]
+message+   368  0.0  0.4  39232  2280 ?        Ss   Mar11   0:00 dbus-daemon --system --fork
+root       398  0.0  0.6  43456  3292 ?        Ss   Mar11   0:00 /lib/systemd/systemd-logind
+syslog     404  0.0  0.5 255848  2856 ?        Ssl  Mar11   0:00 rsyslogd
+root       456  0.0  0.3  15412  1656 ?        S    Mar11   0:00 upstart-file-bridge --daemon
+root       474  0.0  0.8  10236  4284 ?        Ss   Mar11   0:00 dhclient -1 -v -pf /run/dhclient.eth1.pid -lf /var/lib/dhcp/dhclient.eth1.leases eth1
+root       691  0.0  0.0  15264   216 ?        S    Mar11   0:00 upstart-socket-bridge --daemon
+root       811  0.0  0.6  10236  3196 ?        Ss   Mar11   0:00 dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       974  0.0  0.4  15824  2060 tty4     Ss+  Mar11   0:00 /sbin/getty -8 38400 tty4
+root       977  0.0  0.4  15824  2044 tty5     Ss+  Mar11   0:00 /sbin/getty -8 38400 tty5
+root       982  0.0  0.4  15824  2008 tty2     Ss+  Mar11   0:00 /sbin/getty -8 38400 tty2
+root       983  0.0  0.4  15824  2104 tty3     Ss+  Mar11   0:00 /sbin/getty -8 38400 tty3
+root       985  0.0  0.4  15824  2024 tty6     Ss+  Mar11   0:00 /sbin/getty -8 38400 tty6
+root      1012  0.0  1.0  61372  5380 ?        Ss   Mar11   0:00 /usr/sbin/sshd -D
+daemon    1013  0.0  0.0  19144   164 ?        Ss   Mar11   0:00 atd
+root      1016  0.0  0.4  23660  2248 ?        Ss   Mar11   0:00 cron
+root      1051  0.0  0.3   4372  1628 ?        Ss   Mar11   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+root      1163  0.0  0.8  71312  4428 ?        Ss   Mar11   0:01 /usr/sbin/apache2 -k start
+www-data  1166  0.0  0.8 360476  4088 ?        Sl   Mar11   0:12 /usr/sbin/apache2 -k start
+www-data  1167  0.0  0.8 360476  4088 ?        Sl   Mar11   0:12 /usr/sbin/apache2 -k start
+root      1275  0.0  0.7  78188  3608 tty1     Ss   Mar11   0:00 /bin/login --         
+root      1375  0.0  0.0      0     0 ?        S    Mar11   0:00 [kauditd]
+abdullah  1422  0.0  1.0  22472  5348 tty1     S+   Mar11   0:00 -bash
+root      3499  0.0  1.2 105640  6476 ?        Ss   Mar11   0:00 sshd: abdullah [priv]
+abdullah  3547  0.0  0.8 105640  4092 ?        S    Mar11   0:00 sshd: abdullah@pts/0
+abdullah  3548  0.0  1.0  19720  5016 pts/0    Ss+  Mar11   0:00 -bash
+root      4114  0.0  1.3 105784  6576 ?        Ss   04:04   0:00 sshd: abdullah [priv]
+abdullah  4203  0.0  0.8 105784  4396 ?        S    04:04   0:00 sshd: abdullah@pts/1
+abdullah  4204  0.0  1.1  20584  5864 pts/1    Ss   04:04   0:00 -bash
+root      4249  0.0  0.0      0     0 ?        S    04:16   0:00 [kworker/u2:0]
+root      4266  0.0  0.0      0     0 ?        S    04:24   0:00 [kworker/0:1]
+root      4377  0.0  0.0      0     0 ?        S    04:58   0:00 [kworker/u2:2]
+abdullah  4425  0.0  0.4  15572  2216 pts/1    R+   05:08   0:00 ps aux
