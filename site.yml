@@ -1,0 +1,34 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+    - group: name=Democrats state=present
+    - group: name=Republicans state=present
+    - group: name=Independents state=present
+    - user: name=baracko comment="Barack Obama" group=Democrats groups="sudo"
+    - user: name=georgeb comment="George W. Bush" group=Republicans
+    - user: name=billc comment="Bill Clinton" group=Democrats
+    - user: name=ronaldr comment="Ronald Reagan" group=Republicans
+    - user: name=jimmyc comment="Jimmy Carter" group=Independents
+    - user: name=geraldf comment="Gerald Ford" group=Independents
+    - name: Installs NTP
+      apt: pkg=ntp state=installed #update_cache=true
+      notify:
+        - start ntp
+
+    - name: Installs Apache web server
+      apt: pkg=apache2 state=installed #update_cache=true
+      notify:
+
+        - start apache
+
+    - name: Upload default index.html for host
+      copy: src=index.html dest=/var/www/html/ mode=0644
+
+  handlers:
+
+    - name: start ntp
+      service: name=ntp state=started
+
+    - name: start apache
+      service: name=apache2 state=started
